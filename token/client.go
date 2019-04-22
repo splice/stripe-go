@@ -4,7 +4,7 @@ package token
 import (
 	"errors"
 
-	stripe "github.com/stripe/stripe-go"
+	stripe "github.com/splice/stripe-go"
 )
 
 const (

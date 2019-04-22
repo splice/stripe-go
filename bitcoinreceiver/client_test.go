@@ -3,9 +3,9 @@ package bitcoinreceiver
 import (
 	"testing"
 
-	stripe "github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/currency"
-	. "github.com/stripe/stripe-go/utils"
+	stripe "github.com/splice/stripe-go"
+	"github.com/splice/stripe-go/currency"
+	. "github.com/splice/stripe-go/utils"
 )
 
 func init() {

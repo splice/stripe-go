@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/currency"
-	"github.com/stripe/stripe-go/order"
-	"github.com/stripe/stripe-go/product"
-	"github.com/stripe/stripe-go/sku"
-	. "github.com/stripe/stripe-go/utils"
+	"github.com/splice/stripe-go"
+	"github.com/splice/stripe-go/currency"
+	"github.com/splice/stripe-go/order"
+	"github.com/splice/stripe-go/product"
+	"github.com/splice/stripe-go/sku"
+	. "github.com/splice/stripe-go/utils"
 )
 
 func init() {

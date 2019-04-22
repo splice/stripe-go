@@ -5,7 +5,7 @@ import (
 	"errors"
 	"strconv"
 
-	stripe "github.com/stripe/stripe-go"
+	stripe "github.com/splice/stripe-go"
 )
 
 const (

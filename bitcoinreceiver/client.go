@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strconv"
 
-	stripe "github.com/stripe/stripe-go"
+	stripe "github.com/splice/stripe-go"
 )
 
 // Client is used to invoke /bitcoin/receivers APIs.

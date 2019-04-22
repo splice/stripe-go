@@ -4,7 +4,7 @@ package event
 import (
 	"strconv"
 
-	stripe "github.com/stripe/stripe-go"
+	stripe "github.com/splice/stripe-go"
 )
 
 // Client is used to invoke /events APIs.

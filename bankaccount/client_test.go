@@ -3,10 +3,10 @@ package bankaccount
 import (
 	"testing"
 
-	stripe "github.com/stripe/stripe-go"
-	"github.com/stripe/stripe-go/customer"
-	"github.com/stripe/stripe-go/token"
-	. "github.com/stripe/stripe-go/utils"
+	stripe "github.com/splice/stripe-go"
+	"github.com/splice/stripe-go/customer"
+	"github.com/splice/stripe-go/token"
+	. "github.com/splice/stripe-go/utils"
 )
 
 func init() {
