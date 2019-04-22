@@ -74,6 +74,7 @@ type Charge struct {
 	Meta           map[string]string `json:"metadata"`
 	Outcome        *ChargeOutcome    `json:"outcome"`
 	Paid           bool              `json:"paid"`
+	PaymentMethod  string            `json:"payment_method"`
 	Refunded       bool              `json:"refunded"`
 	Refunds        *RefundList       `json:"refunds"`
 	Shipping       *ShippingDetails  `json:"shipping"`
